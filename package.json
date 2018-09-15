@@ -1,0 +1,33 @@
+{
+  "name": "srrbuu",
+  "version": "1.0.0",
+  "description": "Berburu flashsale lebih mudah",
+  "main": "main.js",
+  "repository": "git@github.com:themcmxciv/srrbuu.git",
+  "author": "Hendra Kurniawan <i@hendrakurniawan.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:assets": "webpack --watch",
+    "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
+    "dev": "npm-run-all -p dev:*",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.0",
+    "file-loader": "^2.0.0",
+    "live-server": "^1.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
