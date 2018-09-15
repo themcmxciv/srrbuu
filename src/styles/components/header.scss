@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  padding: 24px 0 16px;
+
+  &-logo {
+    max-width: 128px;
+    margin-bottom: 6px;
+  }
+
+  &-caption {
+    color: #9B9B9B;
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+  }
+}

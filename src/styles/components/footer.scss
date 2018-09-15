@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  color: #202E2A;
+  font-family: 'Heebo';
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 64px;
+
+  &-text__link {
+    color: #202E2A;
+    transition: all ease .3s;
+
+    &:hover {
+      color: #EE4849;
+    }
+  }
+}

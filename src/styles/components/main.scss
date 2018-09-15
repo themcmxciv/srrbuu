@@ -1,0 +1,165 @@
+.main {
+  font-family: 'Heebo';
+  color: #202E2A;
+  padding: 48px 0;
+
+  &-countdown__text {
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 52px;
+  }
+
+  &-countdown__text-icon,
+  &-countdown__text-marketplace,
+  &-countdown__text-bold {
+    line-height: 28px;
+    vertical-align: middle;
+  }
+
+  &-countdown__text-icon {
+    width: 28px;
+  }
+
+  &-countdown__text-marketplace {
+    color: #EE4849;
+    font-weight: 700;
+  }
+
+  &-countdown__text-bold {
+    font-weight: 700;
+  }
+
+  &-countdown__timer {
+    float: right;
+    margin-top: -6px;
+  }
+
+  &-countdown__timer-colon,
+  &-countdown__timer-hours,
+  &-countdown__timer-minutes,
+  &-countdown__timer-seconds {
+    vertical-align: middle;
+  }
+
+  &-countdown__timer-hours,
+  &-countdown__timer-minutes,
+  &-countdown__timer-seconds {
+    display: inline-block;
+    color: #fff;
+    background-color: #202E2A;
+    border-radius: 12px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+  }
+
+  &-countdown__timer-colon {
+    font-size: 28px;
+    color: #aaa;
+  }
+
+  &-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+
+  &-item {
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1599999964237213), 0 0 2px 0 rgba(0, 0, 0, 0.11999999731779099);
+    width: 308px;
+    height: 380px;
+    overflow: hidden;
+  }
+
+  &-item__discount {
+    position: absolute;
+    color: #fff;
+    background-color: #FF8817;
+    border-radius: 100%;
+    width: 62px;
+    height: 62px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 19px;
+    top: 12px;
+    right: 12px;
+  }
+
+  &-item__image {
+    display: block;
+    background: #ccc;
+    height: 230px;
+  }
+
+  &-item__title {
+    display: block;
+    color: #202E2A;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 14px 24px;
+  }
+
+  &-item__buy-button {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    background-color: #EE4849;
+    border-radius: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 75px;
+    line-height: 36px;
+  }
+
+  &-item__price-undiscounted {
+    color: #C8C8C8;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: line-through;
+    margin-left: 24px;
+  }
+
+  &-item__price-discounted {
+    display: block;
+    margin-left: 24px;
+    color: #EE4849;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  &-loading {
+    text-align: center;
+    height: 16px;
+  }
+
+  &-loading__dot {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.25);
+    border-radius: 100%;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+  }
+
+  &-loading__dot:nth-of-type(2) {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  &-loading__dot:nth-of-type(3) {
+    background-color: rgba(255, 0, 0, 0.75);
+  }
+}
